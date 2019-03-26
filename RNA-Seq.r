@@ -1,4 +1,5 @@
 # We will be using DESeq2 for performing the differential expression analysis and additional R packages for data wrangling and plotting
+# RNA-Seq analysis pipeline: 1. read raw counts. 2. Create a DESeq2 object 3. Create a DESeq2 object and Run the DESeq2 analysis 3. PCA and MA plot. 4. heatmap of differently regulated genes
 
 library(DESeq2)
 
